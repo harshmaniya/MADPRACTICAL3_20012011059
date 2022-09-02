@@ -14,7 +14,7 @@ class RegActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         binding = ActivityRegisterBinding.inflate(layoutInflater)
         setContentView(binding.root)
-        // setSupportActionBar(binding.toolbar)
+        setSupportActionBar(binding.toolbar)
 
         binding.bottomNavigationView.selectedItemId = R.id.bottom_nav_reg
         binding.bottomNavigationView.setOnItemSelectedListener{ it ->

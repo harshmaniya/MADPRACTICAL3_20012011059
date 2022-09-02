@@ -13,7 +13,7 @@ class LoginActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         binding = ActivityLoginBinding.inflate(layoutInflater)
         setContentView(binding.root)
-        // setSupportActionBar(binding.toolbar)
+        setSupportActionBar(binding.toolbar)
 
         binding.bottomNavigationView.selectedItemId = R.id.bottom_nav_login
         binding.bottomNavigationView.setOnItemSelectedListener{ it ->

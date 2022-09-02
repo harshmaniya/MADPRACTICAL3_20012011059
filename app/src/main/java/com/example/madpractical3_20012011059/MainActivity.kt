@@ -15,7 +15,7 @@ class MainActivity : AppCompatActivity() {
         binding = ActivityMainBinding.inflate(layoutInflater) //
         setContentView(binding.root) //
 
-        // setSupportActionBar(binding.toolbar)
+        setSupportActionBar(binding.toolbar)
 
         Intent(this, LoginActivity::class.java).also {startActivity(it)}
     }
